@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Document</title>
+     <link rel="stylesheet" href="./SETOTP.css">
+     <script src="./SETOTP.js" defer></script>
+</head>
+<body>
+    <div id="q">
+        <img src="./OTP.jpg" alt="">
+    <div id="container">
+        <input type="text"  id="userval">
+        <input type="button" value="Submit" onclick="accessotp()">
+        <input type="button"  value="Generate OTP" onclick="Otpoutput()">
+        <h1 id="message"></h1>
+    </div>
+    <div id="otpoutput">
+        <span id="close" onclick="closeoutput()">X</span>
+        <h1 id="otp"></h1>
+    </div>
+    </div>
+</body>
+</html>
